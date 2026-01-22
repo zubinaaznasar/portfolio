@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zubi Naaz | Student Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Internal CSS for a colourful, LinkedIn-style look with emojis -->
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Page background and base font */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(to right, #f3f6f8, #eef5ff);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Centered main container */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 15px;
+        }
+
+        /* Top profile section */
+        .profile-top {
+            background: linear-gradient(135deg, #0a66c2, #4da3ff);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+            margin-bottom: 25px;
+        }
+
+        /* Profile image */
+        .profile-top img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ffffff;
+            background-color: #ffffff;
+        }
+
+        /* Name */
+        .profile-info h1 {
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        /* Headline */
+        .profile-info p {
+            font-size: 16px;
+            opacity: 0.95;
+        }
+
+        /* Card-style sections */
+        .card {
+            background-color: #ffffff;
+            border-radius: 14px;
+            padding: 22px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease;
+        }
+
+        /* Slight lift on hover */
+        .card:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Section headings */
+        .card h2 {
+            color: #0a66c2;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #e6eef6;
+            font-size: 22px;
+        }
+
+        /* Achievements list */
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Skills layout */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        /* Skill tags */
+        .skill-tag {
+            background: linear-gradient(135deg, #e6f0fa, #d6e9ff);
+            color: #0a66c2;
+            padding: 8px 16px;
+            border-radius: 22px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        /* Hover effect for skills */
+        .skill-tag:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Mobile-friendly layout */
+        @media (max-width: 600px) {
+            .profile-top {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Top profile section -->
+        <div class="profile-top">
+            <!-- Profile image (image file should be in the same folder) -->
+            <img src="profile.jpg" alt="Profile photo of Zubi Naaz">
+
+            <div class="profile-info">
+                <h1>🌟 Zubi Naaz</h1>
+                <p>🎓 Student | 🌍 Curious Learner | 💡 Exploring Leadership, Sustainability & Creativity</p>
+            </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="card">
+            <h2>🙋‍♀️ About Me</h2>
+            <p>
+                I am a motivated student who enjoys exploring opportunities beyond the classroom.
+                I actively participate in academic, leadership, creative, and community-based activities
+                that help me grow, collaborate with others, and develop real-world skills.
+            </p>
+        </div>
+
+        <!-- Achievements -->
+        <div class="card">
+            <h2>🏆 Achievements</h2>
+            <ul>
+                <li>🌍 Achieved the Duke of Edinburgh's International Bronze Award</li>
+                <li>🎭 Grade 5 Trinity certification for plays in production</li>
+                <li>🕊 Participation certificate for Future We Want Model United Nations</li>
+                <li>💡 Participated in INNOFEST</li>
+                <li>🗣 Participated in an interhouse Model United Nations</li>
+                <li>📈 Participated in Marketshetra (Commercium event)</li>
+                <li>🚀 Participated in a school business youth summit called ZEAL</li>
+                <li>🎤 Participated in a Toastmasters Ace Gavel Club Tall Tales Contest</li>
+                <li>🌱 Certificate for completing Net Zero 101 (UNU Institute for the Advanced Study of Sustainability)</li>
+                <li>🔬 Participated in the Gizmos Global STEM Competition</li>
+                <li>🌐 Host for a Round Square Zoom Postcard Conference</li>
+                <li>🧠 Part of the Quizzards core team</li>
+                <li>🎤 Part of the TEDx Organizing Committee for the year 2026</li>
+                <li>📚 Participated in the Emirates Airlines Literature Festival for story writing</li>
+                <li>🎨 Participated in the school Van Gogh exhibition</li>
+                <li>👩‍🍳 Part of the school Signature Chefs Club</li>
+            </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="card">
+            <h2>🛠 Skills</h2>
+            <div class="skills">
+                <div class="skill-tag">🧶 Crocheting</div>
+                <div class="skill-tag">🎨 Digital Art</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
